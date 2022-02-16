@@ -1,0 +1,59 @@
+body{
+    background-image: url("https://www.jecreemonsite.fr/wp-content/uploads/2014/07/fond-je-cr%C3%A9%C3%A9-mon-site-21.jpg");
+    color: white;
+}
+
+p1
+{
+    font-size: 30px; /* Paragraphes de 14 pixels */
+    font-family: Impact;
+    text-align:center;
+    width: 50%;
+    margin: 450px; /* Marge extérieure de 50px */
+    position:absolute;
+    bottom:0px;
+}
+
+/* nav */
+nav
+{
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+}
+
+/*footer */
+footer
+{
+    text-align:bottom;
+    position:absolute;
+    right:20px;
+    bottom:10px;
+}
+
+footer a
+{
+    color: #ff0000;
+    text-decoration: none;
+}
+
+/* ligne vertical pour le menu */
+.vertical-line{
+    border-left: 2px solid #000;
+    display: inline-block;
+    top: 50px;
+    height: 800px;
+    margin: 0 200px;
+}
